@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+  background: #f1f5f9;
+  color: #111827;
+}
+
+.site {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 4rem 1.25rem 5rem;
+  background: white;
+  border-radius: 32px;
+  box-shadow: 0 40px 80px rgba(15, 23, 42, 0.15);
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.eyebrow {
+  color: #f97316;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.cta {
+  display: inline-flex;
+  gap: 0.5rem;
+  background: #f97316;
+  color: white;
+  padding: 0.85rem 1.75rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.secondary {
+  background: transparent;
+  border: 2px solid #f97316;
+  color: #f97316;
+}
+
+.features,
+.blog,
+.monetize,
+.testimonials,
+.stats {
+  margin-top: 3rem;
+}
+
+.feature,
+.post,
+.testimonial,
+.stat {
+  background: #111827;
+  color: white;
+  padding: 1.25rem;
+  border-radius: 18px;
+  margin-bottom: 1rem;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}
